@@ -52,6 +52,19 @@ fun Praktikum4(modifier: Modifier) {
         Spacer(modifier = Modifier.height(16.dp))
 
 
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(14.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            SocialIcon(R.drawable.f)  // Facebook
+            SocialIcon(R.drawable.gogo) //Google
+            SocialIcon(R.drawable.t) //twitter
+            SocialIcon(R.drawable.linkin) //link
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+
 
 
 
