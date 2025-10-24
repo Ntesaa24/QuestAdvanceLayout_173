@@ -145,6 +145,19 @@ fun MenuItem(title: String, iconResId: Int){
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ){
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                // Bagian ikon
+                Image(
+                    painter = painterResource(id = iconResId),
+                    contentDescription = title,
+                    modifier = Modifier
+                        .size(70.dp)
+                        .padding(end = 16.dp)
+                )
+                Spacer(modifier = Modifier.width(12.dp))
+                Text(
+                    text = title,
+                    color = Color.Black,
 
 
 
