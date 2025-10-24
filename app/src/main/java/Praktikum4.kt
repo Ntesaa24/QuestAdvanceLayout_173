@@ -86,6 +86,16 @@ fun Praktikum4(modifier: Modifier) {
             textAlign = TextAlign.Center
         )
 
+        Spacer(modifier = Modifier.height(40.dp))
+
+        MenuItem(title = "Privacy", iconResId = R.drawable.privacy_lo )
+        Spacer(modifier = Modifier.height(10.dp))
+        MenuItem(title = "Riwayat Transaksi", iconResId = R.drawable.transaksi_log)
+        Spacer(modifier = Modifier.height(10.dp))
+        MenuItem(title = "Pengaturan", iconResId = R.drawable.pe_log)
+
+        Spacer(modifier = Modifier.height(20.dp))
+
 
 
 
