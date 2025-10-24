@@ -77,6 +77,15 @@ fun Praktikum4(modifier: Modifier) {
             fontSize = 14.sp,
             color = Color.Gray
         )
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = "Saya seorang Back End Developer",
+            fontSize = 14.sp,
+            color = Color.Black,
+            textAlign = TextAlign.Center
+        )
+
 
 
 
