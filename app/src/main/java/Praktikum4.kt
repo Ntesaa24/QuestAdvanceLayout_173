@@ -158,7 +158,18 @@ fun MenuItem(title: String, iconResId: Int){
                 Text(
                     text = title,
                     color = Color.Black,
-
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+            Image(
+                painter = painterResource(id = R.drawable.playbutton),
+                contentDescription = "Next",
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+}
 
 
 
