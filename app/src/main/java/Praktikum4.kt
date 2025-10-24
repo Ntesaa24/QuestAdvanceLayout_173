@@ -64,6 +64,13 @@ fun Praktikum4(modifier: Modifier) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        // Nama pengguna
+        Text(
+            text = "Notesa Aldinasari",
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
 
 
 
