@@ -41,6 +41,14 @@ fun Praktikum4(modifier: Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.logoo),
+            contentDescription = "Profile picture",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .size(110.dp)
+                .clip(CircleShape)
+        )
 
 
 
