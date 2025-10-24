@@ -71,6 +71,12 @@ fun Praktikum4(modifier: Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
+        // Username
+        Text(
+            text = "@Notesa_aldinasari",
+            fontSize = 14.sp,
+            color = Color.Gray
+        )
 
 
 
