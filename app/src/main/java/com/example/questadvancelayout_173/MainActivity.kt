@@ -1,6 +1,7 @@
 package com.example.questadvancelayout_173
 
 import ActivitasPertama
+import Praktikum4
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestAdvanceLayout_173Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ActivitasPertama(
+                    Praktikum4(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
