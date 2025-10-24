@@ -138,6 +138,13 @@ fun MenuItem(title: String, iconResId: Int){
             containerColor = Color.LightGray
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ){
 
 
 
