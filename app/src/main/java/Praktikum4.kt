@@ -104,6 +104,41 @@ fun Praktikum4(modifier: Modifier) {
     }
 }
 
+@Composable
+fun SocialIcon(iconRes: Int) {
+    Box(
+        modifier = Modifier
+            .size(36.dp)
+            .clip(CircleShape)
+            .clickable { },
+        contentAlignment = Alignment.Center
+    ) {
+        Image(
+            painter = painterResource(id = iconRes),
+            contentDescription = "Social Icon",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(4.dp)
+        )
+    }
+}
+
+@Composable
+fun MenuItem(title: String, iconResId: Int){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(100.dp)
+            .padding(all = 12.dp)
+            .clickable { },
+        shape = RoundedCornerShape(16.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = Color.LightGray
+        )
+    ) {
+
 
 
 
